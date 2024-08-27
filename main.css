@@ -1,0 +1,181 @@
+html {
+    font-size: 22px
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(img/CLEAR.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:aliceblue;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.QR {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+article{
+  align-content: center;
+}
+
+nav {
+  text-align: center;
+  justify-content: space-between;
+  border-bottom: 0px solid;
+}
+
+article {
+  display: block;
+  justify-content: space-between;
+  border-bottom: 0px solid;
+}
+
+header {
+  align-content: center;
+  position: relative;
+  background-image: url(img/HEADER.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0px solid;
+}
+
+li {
+  display: inline;
+  padding: 14px;
+}
+
+iframe {
+  display: block;
+  margin-left: 80%;
+  margin-top: -8%;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #142e7b;
+  position:absolute;
+  bottom: auto;
+  width: 100%;
+  margin: auto;
+}
+
+.footer1 {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.footerimg {
+  height: 20%;
+  width: 20%;
+  margin-left: 70%;
+}
+
+.widget1 {
+  margin-left: auto;
+  z-index: 0;
+  margin-left: auto;
+  display: table-cell;
+}
+
+
+.box1 {
+  display: table;
+  width: 100%;
+}
+
+.box2 {
+  display: table-row;
+}
+
+iframe {
+  display: table-cell;
+}
+
+
+
+a {
+    outline-color: transparent;
+  }
+  
+  a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: rgb(220, 221, 213);
+  }
+  
+  a:focus {
+    text-decoration: none;
+    background: #505050;
+  }
+  
+  a:active {
+    background: #5a94eb;
+    color: #535353;
+  }
+
+  table, tr, th, td, caption {
+    border: 1px solid #FFFFFF;
+    font-family:'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+  }
+
+  .tech-slideshow {
+    height: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .tech-slideshow > div {
+    height: 200px;
+    width: 4300px;
+    background: url(img/team.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .tech-slideshow .mover-1 {
+    animation: moveSlideshow 30s linear infinite;
+  }
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.66666%);  
+    }
+  }
